@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    opacity: .9;
+    text-align: center;
+    margin: 0;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    top: 0;
+    border: 1px solid seashell;
+    width: 100%;
+    min-height: 69px;
+    margin: 0;
+    z-index: 999;
+}
+.nav-logo{
+    margin-left: 10px;
+    min-height: 50px;
+    min-width: 110px;
+}
+.logo{
+    margin-left: 10px;
+    height: 50px;
+    width: 110px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 40%;
+}
+.links, ul {
+    list-style: none;
+    color: seashell;
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.links{
+    margin: 0 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    justify-content: center;
+    text-decoration: underline;
+    text-align: center;
+}
+li .links:hover{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    min-width:100px;
+    color: crimson;
+    align-items: center;
+    border-radius: 5px;
+}
+/*container*/
+#container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+/*mission*/
+.mission{
+    background-image: url(/resources/img-mission-background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: black;
+    max-width: 1200px;
+    height: 700px;
+    background-position: center;
+    z-index: 3;
+}
+.mission-img{
+    background-color: black;
+}
+.mission-text{
+    max-width: 1200px;
+    padding: 0 50px;
+}
+/* Outsanding */
+.outstanding{
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 100px 0;
+}
+.box-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pictures-container{
+    font-weight: bold;
+}	
+.pictures-container img{
+    max-width: 300px;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+/* Locations */
+.locations{
+    background-image: url(/resources/img-locations-background.jpg);
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    max-width: 1200px;
+    background-repeat:repeat-y;
+    margin: 70px 0;
+}
+.box-locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+}
+.adress{
+    border: 1px solid seashell;
+    min-width: 300px;
+    justify-content: space-around;
+    background-color: black;
+    margin: 10px 40px;
+    align-items: center;
+    opacity: 1;
+    text-align: center;
+}
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-contact{
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+}
+.copyright{
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin: 0 40px;
+}
+
