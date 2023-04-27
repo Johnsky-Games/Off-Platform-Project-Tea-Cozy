@@ -19,6 +19,7 @@ body{
     min-height: 69px;
     margin: 0;
     z-index: 999;
+    left: 0;
 }
 .nav-logo{
     margin-left: 10px;
